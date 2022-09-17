@@ -8,6 +8,15 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Montserrat', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --p1: hsla(336,60%,75%,1);
+  --p2: hsla(334,60%,75%,1);
+  --pf: Poppins;
+  --sf: Montserrat;
+  --p1-night-eye: hsla(336,60%,46%,1);
+  --p2-night-eye: hsla(334,60%,53%,1);
 }

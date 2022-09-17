@@ -1,0 +1,34 @@
+.contact-section{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/contact.jpg);
+}
+.contact-details{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+form input{
+    padding: 11px 14px;
+    background: #2E2E2E;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 2.08333rem;
+}
+input:nth-child(1){
+    margin-right: 78px;
+}
+input:nth-child(3){
+    width: 99%;
+    margin: 35px 0;
+}
+form textarea{
+    background: #2E2E2E;
+    box-shadow: rgb(0 0 0 / 50%) 0px 0px 2.08333rem;
+    padding: 11px 14px;
+}
+form button{
+    padding: 14px 32px;
+    background: #BC2F67;
+    margin-top: 35px;
+    font-size: 14px;
+    color: white;
+}

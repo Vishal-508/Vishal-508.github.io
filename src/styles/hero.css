@@ -1,0 +1,13 @@
+
+.hero-section{
+    width: 100vw;
+    
+    background: linear-gradient(to right, #232526, #414345);
+    height: 100vh;
+    /* background-color: rgb(28, 28, 33); */
+}
+.hero-image{
+    text-align: right;
+    height: 100vh;
+    width: 50%;
+}

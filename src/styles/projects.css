@@ -1,0 +1,5 @@
+.project-section{
+    width: 100vw;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.397),rgba(0, 0, 0, 0.39)), url(../images/project.jpg);
+}
