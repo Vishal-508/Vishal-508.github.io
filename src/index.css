@@ -20,3 +20,30 @@ code {
   --p1-night-eye: hsla(336,60%,46%,1);
   --p2-night-eye: hsla(334,60%,53%,1);
 }
+html{
+  scroll-behavior: smooth;
+}
+
+/* body {
+  font-family: arial, helvetica;
+}
+
+h3 {
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+}
+
+#section1 {
+  color: #fff;
+}
+.section{
+  height: 100vh;
+  
+}
+
+.fp-section {
+  text-align: center;
+} */
+ 

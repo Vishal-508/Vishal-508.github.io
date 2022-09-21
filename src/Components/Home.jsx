@@ -1,31 +1,103 @@
-import React from 'react'
-import styles from "../App.css"
-import About from './About'
-import Contact from './Contact'
-import Footer from './Footer'
-import Hero from './Hero'
-import Navbar from './Navbar'
-import Projects from './Projects'
-import Statistics from './Statistics'
-import TechSection from './TechSection'
+import {
+  Box,
+  Flex,
+  List,
+  ListItem,
+  Spacer,
+  Image,
+  Text,
+} from "@chakra-ui/react";
+import React from "react";
+import logo from "../images/logo1.png";
+import SideNav from "./SideNav";
+import { Element, Link } from "react-scroll";
+import styles from "../App.css";
+import About from "./About";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import Hero from "./Hero";
+import Navbar from "./Navbar";
+import Projects from "./Projects";
+import Statistics from "./Statistics";
+import TechSection from "./TechSection";
 const Home = () => {
   return (
-
-    <div className="home" >
-        <div style={{position:'fixed', top:0 , zIndex:"2"}} >
+    <div className="home">
+      <div style={{ position: "fixed", top: 0, zIndex: "2",width:"100%" }}>
         <Navbar/>
-        </div>
-        <Hero/>
-        <About/>
-        <TechSection/>
-        <Projects/>
-        <Statistics/>
-        <Contact/>
-        <div style={{position:'fixed', bottom:0}} >
-            <Footer/>
-        </div>
-    </div>
-  )
-}
+      
+      </div>
 
-export default Home
+      <section id="Home">
+        <Hero />
+      </section>
+      
+      <section id="About">
+        <About />
+      </section>
+     
+      <section id="Skills">
+        {" "}
+        <TechSection />
+      </section>
+      
+      <section id="Projects">
+        {/* <Projects /> */}
+      </section>
+      
+      <section id="Statistics">
+        {/* <Statistics /> */}
+      </section>
+      
+      <section id="Contact">
+        {/* <Contact /> */}
+      </section>
+
+      <div style={{ position: "fixed", bottom: 0 }}>
+        <Footer />
+      </div>
+    </div>
+  );
+};
+
+export default Home;
+
+
+  {/* <div className="nav-section">
+          <Flex flexDirection="row" color="white">
+            <Flex justify="center" align="center" fontWeight="bold" w="80%">
+              <Image src={logo} w="70px" />{" "}
+              <Text fontSize="2xl" fontWeight="bold">
+                VISHAL
+              </Text>
+              <Spacer />
+              
+              <List display="flex" justifyContent="space-evenly" w="70%">
+                <a href="#Home">
+                  <ListItem>Home</ListItem>
+                </a>
+
+                <a href="#About">
+                  <ListItem>About</ListItem>
+                </a>
+
+                <a href="#Skills">
+                  <ListItem>Skills</ListItem>
+                </a>
+                <a href="#Projects">
+                  <ListItem>Projects</ListItem>
+                </a>
+                <a href="#Statistics">
+                  <ListItem>Statistics</ListItem>
+                </a>
+                <a href="#Contact">
+                  <ListItem>Contact</ListItem>
+                </a>
+              </List>
+            </Flex>
+            <Spacer />
+            <Box>
+              <SideNav />
+            </Box>
+          </Flex>
+        </div> */}

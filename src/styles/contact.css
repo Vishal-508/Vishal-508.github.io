@@ -1,17 +1,27 @@
 .contact-section{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../images/contact.jpg);
+    width: 100%;
+    /* height: 100vh;
+     */
+     justify-content: center;
+     align-items: center;
+     padding: 100px 0;
+     padding-bottom: 200px;
+    flex-direction: column;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    /* background-image:linear-gradient(145deg, #e2e8ec46, #ffffff2d)  ,url(../images/contact.jpg); */
 }
 .contact-details{
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 1335px;
+    margin-top: 50px;
 }
 form input{
     padding: 11px 14px;
-    background: #2E2E2E;
-    box-shadow: rgb(0 0 0 / 50%) 0px 0px 2.08333rem;
+    /* background: #2E2E2E; */
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
 }
 input:nth-child(1){
     margin-right: 78px;
@@ -21,14 +31,49 @@ input:nth-child(3){
     margin: 35px 0;
 }
 form textarea{
-    background: #2E2E2E;
-    box-shadow: rgb(0 0 0 / 50%) 0px 0px 2.08333rem;
+    /* background: #2E2E2E; */
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
     padding: 11px 14px;
 }
 form button{
     padding: 14px 32px;
-    background: #BC2F67;
+    background: #FF014F;
     margin-top: 35px;
     font-size: 14px;
     color: white;
+}
+form button:hover{
+    color:#FF014F;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 5px;
+    border: 1px solid #FF014F;
+    transition: color .2s ease-in ;
+    transform: background-color .2s ease-in;
+}
+.contact-icon-con{
+    height: 64px;
+
+}
+.contact-icon-con>div{
+    height: 50px;
+    cursor: pointer;
+    width: 50px;
+    margin-right: 15px;
+    margin-top: 10px;
+    align-self: center;
+    
+    border-radius: 10px;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+.contact-icon-con>div:hover{
+    /* background: #FF014F; */
+    background: linear-gradient(145deg, #e2e8ec, #e2e8ec);
+   
+}
+.contact-icon-con>div img{
+    width: 35px;
+    height: 35px;
 }

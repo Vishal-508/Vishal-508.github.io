@@ -1,0 +1,24 @@
+.side-items{
+    width:100%;
+     padding:20px;
+      margin:auto;
+    text-align:center; 
+   /* background: linear-gradient(90deg, #e2e8ec, #ffffff); */
+   /* box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff; */
+   /* margin: 1px; */
+}
+.side-items:hover{
+    background: linear-gradient(90deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    color:#FF014F;
+    border-radius: 5px;
+}
+.ham-button{
+    margin-top: 12px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+}
+.ham-button:hover{
+    background: #FF014F,url(../images/h1n.png);
+}

@@ -19,10 +19,10 @@ const selectLastHalfYear = contributions => {
     });
   };
 const GitCalendar = () => {
-    const color=useColorModeValue("#E699B8","#BC2F67")
+    const color=useColorModeValue("#FF014F","#F9004D")
   return (
     <Box >
-        <Text>DAYS I CODE</Text>
+        <Text fontSize="18px" color="#F9004D" fontWeight="bold" >DAYS I CODE</Text>
         <GitHubCalendar 
   username="Vishal-508" 
 //   transformData={selectLastHalfYear} 

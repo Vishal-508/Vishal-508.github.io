@@ -1,11 +1,169 @@
+.static-section::before{
+    content: "";
+    border-bottom: .5px solid #878e9986;
+    
+    height: .5px ;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+
+}
+
 .static-section{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    
+    background: #F0F2F5;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    flex-direction: column;
+    
 }
-.static-cards{
+.static-main-con{
+    width: 1335px;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    margin-top: 50px;
+}
+.static-cards-con{
+    flex-wrap: wrap;
+    /* border: 1px solid green; */
+    margin: 30px;
+    padding: 50px 50px;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 20px;
+}
+.static-card{
+    /* border: 1px solid black; */
+}
+.git-calendar{
+    /* border: 1px solid red; */
+    margin: 30px;
+    padding: 30px 78px;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 20px;
+}
+
+
+
+.static-card{
+    /* border: 1px solid maroon; */
+    width: 150px;
+    margin: 0 15px;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
     border-radius: 10px;
-   background:  linear-gradient(145deg, #1e2024, #23272b);
-   box-shadow:  10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-   margin: 30px 5px 50px 5px;
-   
 }
+.static-card:hover{
+    border-radius: 10px;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    color: #F9004D;
+    cursor: pointer;
+}
+.static-card:hover>div:last-child{
+    color: #F9004D;
+}
+.static-card:hover>div:last-child>span{
+    color: #1e2125;
+}
+.static-img{
+    justify-content: center;
+    align-items: center;
+}
+.static-img>div{
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #F9004D;
+}
+.static-card-dis{
+    text-align: center;
+    font-size: 16px;
+    color: #1e2125;
+    font-weight: 600;
+    padding: 15px;
+}
+.static-card-dis-span{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* OLD CSS STARTS HERE */
+/* .static-sub-con{
+    justify-content:center;
+     align-items: center;
+     flex-direction: column;
+     width: 1335px;
+      border: 1px solid black;
+
+} */
+   
+
+/* .static-cards{
+    flex-direction: column;
+    height:auto;
+    
+ 
+    justify-content: space-between;
+    
+    border-Radius:15px;
+    width:240px;
+    height:240px;
+    padding:40px 40px 10px 40px;
+  
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+} */
+/* .static-value{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    align-self:center;
+    align-items:center;
+    margin-bottom:20px;
+    font-Size:38px;
+    font-weight:bold;
+    
+    color:#FF014F;
+    padding:20px 10px;
+    background: linear-gradient(145deg, #CED0D4, #ffffff);
+   
+    box-shadow:5px 5px 15px #42454952, -5px -5px 15px #ffffffaf;
+    border-radius:15px;
+} */
+/* .static-line{
+  
+    border:.5px solid #3c3e41;
+    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+}
+.static-dis{
+    align-self:center;
+    align-items:center;
+   
+    font-size:12px;
+    color:#3c3e41;
+} */

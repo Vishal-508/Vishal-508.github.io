@@ -1,6 +1,116 @@
-.tech-section{
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(145deg, #1e2024, #23272b);
-    /* box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e; */
+.tech-section::before{
+    content: "";
+    border-bottom: .5px solid #878e9986;
+    /* margin-bottom: 100px; */
+    height: .5px ;
+    width: 100%;
+    position: relative;
+    bottom: 100px;
+
 }
+
+.tech-section{
+    width: 100%;
+    /* height: 100vh; */
+    background: #F0F2F5;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+    flex-direction: column;
+   
+}
+.tech-sub-sec{
+    /* width: 1140px; */
+    /* border: 1px solid black; */
+    padding: 30px;
+    flex-direction: column;
+    border-radius: 20px;
+    margin-top: 50px;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+}
+.skill-container{
+margin: 20px 0 ;
+flex-wrap: wrap;
+}
+
+.skill-catigory{
+    font-size: 32px;
+    font-weight: 600;
+    color: #1e2125;
+    margin-bottom: 30px;
+    /* background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 10PX; */
+    /* border: 1px solid black; */
+}
+.stack-card{
+    /* border: 1px solid maroon; */
+    width: 150px;
+    margin: 0 15px;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 10px;
+}
+.stack-card:hover{
+    border-radius: 10px;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    color: #F9004D;
+    cursor: pointer;
+}
+.stack-card:hover>div:last-child{
+    color: #F9004D;
+}
+.stack-img{
+    height: 120px;
+    background-position: center center ;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+#fg1{
+    background-image: url(../images/fhsk.png);
+}
+#fg2{
+    background-image: url(../images/fcsk.png);
+}
+#fg3{
+    background-image: url(../images/frdsk.png);
+}
+#fg4{
+    background-image: url(../images/fjsk.png);
+}
+#fg5{
+    background-image: url(../images/frsk.png);
+}
+#fg6{
+    background-image: url(../images/fbsk.png);
+}
+
+/* BACK-END IMG STARTS */
+#bg1{
+    background-image: url(../images/bg1.png);
+}
+#bg2{
+    background-image: url(../images/bg2.png);
+}
+#bg3{
+    background-image: url(../images/bg3.png);
+}
+#bg4{
+    background-image: url(../images/bg4.png);
+}
+#bg5{
+    background-image: url(../images/bg5.png);
+}
+#bg6{
+    background-image: url(../images/bg6.png);
+}
+
+.stack-card-dis{
+    text-align: center;
+    font-size: 18px;
+    color: #1e2125;
+    padding: 15px;
+}
+/* 222.5px */
