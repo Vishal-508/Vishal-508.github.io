@@ -13,7 +13,7 @@ const Contact = () => {
         <h2>About Me</h2>
       </Box>
       <Flex className="contact-details">
-        <Box textAlign="left" w="535px" h="434px">
+        <Box textAlign="left" className="contact-dis">
           <Text fontSize="5xl" fontWeight="bold" color="#1E2125">
             {" "}
             <Box color="#ff014f">Madhya Pradesh </Box>, INDIA
@@ -30,35 +30,46 @@ const Contact = () => {
           <Flex className="contact-icon-con">
             <Center>
               {" "}
-              <a href="https://github.com/Vishal-508">
+              <a target="_blank" href="https://github.com/Vishal-508">
                 <Image src={icn1} alt="github" />
+              </a>{" "}
+              
+            </Center>
+            <Center>
+              {" "}
+              <a
+                target="_blank"
+                href="https://www.instagram.com/vishal_sharma1020/"
+              >
+                <Image src={icn2} alt="Instagram" />
               </a>{" "}
             </Center>
             <Center>
               {" "}
-              <Link>
-                <Image src={icn2} alt="instagram" />
-              </Link>{" "}
-            </Center>
-            <Center>
-              {" "}
-              <a href="linkedin.com/in/vishal-sharma-388956218">
+              <a
+                target="_blank"
+                href="https://linkedin.com/in/vishal-sharma-388956218"
+              >
                 <Image src={icn3} alt="linkedin" />
               </a>{" "}
             </Center>
           </Flex>
         </Box>
-        <Box w="535px" h="434px">
+        <Box className="contact-form-container">
           <form>
+            <div className="form-name-email">
             <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" padding="35px 0" />
-            <input type="text" placeholder="Subject" />
+            <div className="spacer-div" ></div>
+            <input type="text" placeholder="Email"/>
+            </div>
+            <input type="text" placeholder="Subject" id="subject" />
             <br />
             <textarea
               name=""
-              id=""
-              cols="54"
-              rows="10"
+              id="textarea"
+              // cols="54"
+              // rows="10"
+              
               placeholder="Message"
             ></textarea>
             <button className="contact-btn" type="submit">
@@ -67,6 +78,13 @@ const Contact = () => {
           </form>{" "}
         </Box>
       </Flex>
+      <Center mt="160px">
+        Made with ❤ in &nbsp;{" "}
+        <Box color="#FF014F" fontWeight="bold">
+          {" "}
+          India.{" "}
+        </Box>{" "}
+      </Center>
     </Flex>
   );
 };

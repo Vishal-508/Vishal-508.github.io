@@ -38,7 +38,7 @@ const About = () => {
             </Box>
             <Box className="about-dis-con" 
             
-            w={{ base:"350px", lg:"660px", md:"500px",sm:"450px"}}
+            w={{ base:"260px", lg:"660px", md:"500px",sm:"450px"}}
              >
               <Text pb="30px" display="inline-block" >
                 Hello, I am Vishal Sharma and I am an Engineer. I'm obsessed

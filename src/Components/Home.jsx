@@ -7,11 +7,13 @@ import {
   Image,
   Text,
 } from "@chakra-ui/react";
+import ScrollToTop from "react-scroll-to-top";
 import React from "react";
 import logo from "../images/logo1.png";
 import SideNav from "./SideNav";
 import { Element, Link } from "react-scroll";
 import styles from "../App.css";
+import "../styles/home.css";
 import About from "./About";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -22,7 +24,9 @@ import Statistics from "./Statistics";
 import TechSection from "./TechSection";
 const Home = () => {
   return (
+
     <div className="home">
+      <ScrollToTop smooth height="20" width="20"  className="scroll-btn"  />
       <div style={{ position: "fixed", top: 0, zIndex: "2",width:"100%" }}>
         <Navbar/>
       
@@ -42,20 +46,21 @@ const Home = () => {
       </section>
       
       <section id="Projects">
-        {/* <Projects /> */}
+        <Projects />
       </section>
       
       <section id="Statistics">
-        {/* <Statistics /> */}
+        <Statistics />
       </section>
       
       <section id="Contact">
-        {/* <Contact /> */}
+        <Contact />
       </section>
 
       <div style={{ position: "fixed", bottom: 0 }}>
         <Footer />
       </div>
+      
     </div>
   );
 };

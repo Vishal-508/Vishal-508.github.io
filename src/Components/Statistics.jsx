@@ -26,7 +26,7 @@ const Statistics = () => {
             <Box className="static-card-dis">
               HOURS{" "}
               <Box as="span" className="static-card-dis-span">
-                of coading.
+                of coding.
               </Box>
             </Box>
           </Box>

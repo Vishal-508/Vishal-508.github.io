@@ -9,7 +9,7 @@ import prj2 from "../images/prj2.png";
 const Projects = () => {
   return (
     <Flex className="project-section">
-      <Box className="divider-sec"></Box>
+      {/* <Box className="divider-sec"></Box> */}
       {/* <Box position="relative" w="10%">
         <Box className="label">Projects</Box>
       </Box> */}
@@ -17,130 +17,125 @@ const Projects = () => {
         <span>Some Master Piece of</span>
         <h2>My Projects</h2>
       </Box>
-      <Flex className="project-sub-con">
-        <Box className="project-card">
-          <Box className="project-sub-card">
-            <Box className="project-sub-image" id="p1" >
-              {/* <Image src={prj1} alt="Bewakoof.com" /> */}
-            </Box>
-            <Box className="project-sub-des">
-              <Box>E-COMMERCE</Box>
-              <Box>BEWAKOOF.COM (CLONE)</Box>
-              <Flex className="tech-stacks" >
-                <Box>REACT</Box>
-                <Box>JAVASCRIPT</Box>
-                <Box>HTML</Box>
-                <Box>CHAKRA-UI</Box>
-                <Box>API</Box>
-                <Box>JSON-SERVER</Box>
-              </Flex>
-              <Flex className="project-card-btn" >
-                <Button  >VIEW CODE</Button>
-                <Spacer/>
-                <Button>LIVE PROJECT</Button>
-              </Flex>
-            </Box>
-          </Box>
-        </Box>
-        <Box className="project-card">
-          <Box className="project-sub-card">
-            <Box className="project-sub-image" id="p2" >
-              {/* <Image src={prj1} alt="Bewakoof.com" /> */}
-            </Box>
-            <Box className="project-sub-des">
-              <Box>TRAVELING</Box>
-              <Box>ORBITZ.COM (CLONE)</Box>
-              <Flex className="tech-stacks" >
-                
-                <Box>JAVASCRIPT</Box>
-                <Box>HTML</Box>
-                <Box>CHAKRA-UI</Box>
-                <Box>API</Box>
-                
-              </Flex>
-              <Flex className="project-card-btn" >
-                <Button  >VIEW CODE</Button>
-                <Spacer/>
-                <Button>LIVE PROJECT</Button>
-              </Flex>
+    
+        <Flex className="project-sub-con">
+          
+          <Box className="project-card">
+            <Box className="project-sub-card">
+              <Box className="project-sub-image" id="p2">
+                {/* <Image src={prj1} alt="Bewakoof.com" /> */}
+              </Box>
+              <Box className="project-sub-des">
+                <Box>TRAVELING</Box>
+                <Box>ORBITZ.COM (CLONE)</Box>
+                <Flex className="tech-stacks">
+                  <Box>JAVASCRIPT</Box>
+                  <Box>HTML</Box>
+                  <Box>CHAKRA-UI</Box>
+                  <Box>API</Box>
+                </Flex>
+                <Flex className="project-card-btn">
+                  <Button><a target="_blank" href="https://github.com/Vishal-508/second-collab-project"> VIEW CODE</a></Button>
+                  <Spacer />
+                  <Button><a target="_blank" href="https://dynamic-peony-8ff545.netlify.app/"> LIVE PROJECT</a></Button>
+                </Flex>
+              </Box>
             </Box>
           </Box>
-        </Box>
-        <Box className="project-card">
-          <Box className="project-sub-card">
-            <Box className="project-sub-image" id="p3" >
-              {/* <Image src={prj1} alt="Bewakoof.com" /> */}
+          <Box className="project-card">
+            <Box className="project-sub-card">
+              <Box className="project-sub-image" id="p1">
+                {/* <Image src={prj1} alt="Bewakoof.com" /> */}
+              </Box>
+              <Box className="project-sub-des">
+                <Box>E-COMMERCE</Box>
+                <Box>BEWAKOOF.COM (CLONE)</Box>
+                <Flex className="tech-stacks">
+                  <Box>REACT</Box>
+                  <Box>JAVASCRIPT</Box>
+                  <Box>HTML</Box>
+                  <Box>CHAKRA-UI</Box>
+                  <Box>API</Box>
+                  <Box>JSON-SERVER</Box>
+                </Flex>
+                <Flex className="project-card-btn">
+                  <Button><a target="_blank" href="https://github.com/Vishal-508/quizzical-trade-9516"> VIEW CODE</a></Button>
+                  <Spacer />
+                  <Button><a target="_blank" href="https://jolly-dusk-117b82.netlify.app"> LIVE PROJECT</a></Button>
+                </Flex>
+              </Box>
             </Box>
-            <Box className="project-sub-des">
-              <Box>ANIMAL-LOVERS</Box>
-              <Box>tINDOG.COM (CLONE)</Box>
-              <Flex className="tech-stacks" >
+          </Box>
+          <Box className="project-card">
+            <Box className="project-sub-card">
+              <Box className="project-sub-image" id="p3">
+                {/* <Image src={prj1} alt="Bewakoof.com" /> */}
+              </Box>
+              <Box className="project-sub-des">
+                <Box>ANIMAL-LOVERS</Box>
+                <Box>tINDOG.COM (CLONE)</Box>
+                <Flex className="tech-stacks">
+                  <Box>JAVASCRIPT</Box>
+                  <Box>HTML</Box>
+                  <Box>BOOTSTRAP</Box>
+                  <Box>CSS</Box>
+                </Flex>
+                <Flex className="project-card-btn">
                 
-                <Box>JAVASCRIPT</Box>
-                <Box>HTML</Box>
-                <Box>BOOTSTRAP</Box>
-                <Box>CSS</Box>
+                <Button><a target="_blank" href="https://github.com/Vishal-508/Project-1/tree/main/TinDog"> VIEW CODE</a></Button>
+                  <Spacer />
+                  <Button><a target="_blank" href="https://zingy-crumble-991803.netlify.app/"> LIVE PROJECT</a></Button>
+                </Flex>
+              </Box>
+            </Box>
+          </Box>
+          <Box className="project-card">
+            <Box className="project-sub-card">
+              <Box className="project-sub-image" id="p4">
+                {/* <Image src={prj1} alt="Bewakoof.com" /> */}
+              </Box>
+              <Box className="project-sub-des">
+                <Box>APPLICATION</Box>
+                <Box>DICE GAME</Box>
+                <Flex className="tech-stacks">
+                  <Box>JAVASCRIPT</Box>
+                  <Box>HTML</Box>
 
-                
-                
-              </Flex>
-              <Flex className="project-card-btn" >
-                <Button  >VIEW CODE</Button>
-                <Spacer/>
-                <Button>LIVE PROJECT</Button>
-              </Flex>
+                  <Box>CSS</Box>
+                  <Box>JqUERY</Box>
+                </Flex>
+                <Flex className="project-card-btn">
+                  <Button><a target="_blank" href="https://github.com/Vishal-508/My-Portfolio-Site/tree/main/my-Projects/DICE-GAME/Dicee%20Challenge"> VIEW CODE</a></Button>
+                  <Spacer />
+                  <Button><a target="_blank" href="https://fancy-faloodeh-47054b.netlify.app/"> LIVE PROJECT</a></Button>
+                </Flex>
+              </Box>
             </Box>
           </Box>
-        </Box>
-        <Box className="project-card">
-          <Box className="project-sub-card">
-            <Box className="project-sub-image" id="p4" >
-              {/* <Image src={prj1} alt="Bewakoof.com" /> */}
-            </Box>
-            <Box className="project-sub-des">
-              <Box>APPLICATION</Box>
-              <Box>DICE GAME</Box>
-              <Flex className="tech-stacks" >
-               
-                <Box>JAVASCRIPT</Box>
-                <Box>HTML</Box>
-                
-                <Box>CSS</Box>
-                <Box>JqUERY</Box>
-              </Flex>
-              <Flex className="project-card-btn" >
-                <Button  >VIEW CODE</Button>
-                <Spacer/>
-                <Button>LIVE PROJECT</Button>
-              </Flex>
+          <Box className="project-card">
+            <Box className="project-sub-card">
+              <Box className="project-sub-image" id="p5">
+                {/* <Image src={prj1} alt="Bewakoof.com" /> */}
+              </Box>
+              <Box className="project-sub-des">
+                <Box>APPLICATION</Box>
+                <Box>DRUM KIT GAME </Box>
+                <Flex className="tech-stacks">
+                  <Box>JAVASCRIPT</Box>
+                  <Box>HTML</Box>
+                  <Box>CSS</Box>
+                  <Box>JqUERY</Box>
+                </Flex>
+                <Flex className="project-card-btn">
+                  <Button><a target="_blank" href="https://github.com/Vishal-508/My-Portfolio-Site/tree/main/my-Projects/DRUM-KIT-GAME/Drum%20Kit"> VIEW CODE</a></Button>
+                  <Spacer />
+                  <Button> <a target="_blank" href="https://moonlit-liger-775611.netlify.app/"> LIVE PROJECT</a></Button>
+                </Flex>
+              </Box>
             </Box>
           </Box>
-        </Box>
-        <Box className="project-card">
-          <Box className="project-sub-card">
-            <Box className="project-sub-image" id="p5" >
-              {/* <Image src={prj1} alt="Bewakoof.com" /> */}
-            </Box>
-            <Box className="project-sub-des">
-              <Box>APPLICATION</Box>
-              <Box>DRUM KIT GAME </Box>
-              <Flex className="tech-stacks" >
-                
-                <Box>JAVASCRIPT</Box>
-                <Box>HTML</Box>
-                <Box>CSS</Box>
-                <Box>JqUERY</Box>
-                
-              </Flex>
-              <Flex className="project-card-btn" >
-                <Button  >VIEW CODE</Button>
-                <Spacer/>
-                <Button>LIVE PROJECT</Button>
-              </Flex>
-            </Box>
-          </Box>
-        </Box>
-      </Flex>
+        </Flex>
+      
     </Flex>
   );
 };

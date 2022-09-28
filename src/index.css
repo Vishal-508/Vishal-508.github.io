@@ -19,6 +19,8 @@ code {
   --sf: Montserrat;
   --p1-night-eye: hsla(336,60%,46%,1);
   --p2-night-eye: hsla(334,60%,53%,1);
+ --bs-light: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  --bg-light: linear-gradient(145deg, #e2e8ec, #ffffff);
 }
 html{
   scroll-behavior: smooth;

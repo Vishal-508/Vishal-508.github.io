@@ -43,7 +43,9 @@ const Navbar = () => {
             <ListItem>Statistics</ListItem>
             <ListItem>Contact</ListItem>
           </List> */}
-          <List display="flex" justifyContent="center" w="70%">
+          <List
+          //  display="flex" justifyContent="center" w="70%"
+           className="nav-element-con" >
                 <a href="#Home"   value="#Home"  >
                   <ListItem  className="nav-element"  > HOME</ListItem>
                 </a>
@@ -67,7 +69,7 @@ const Navbar = () => {
               </List>
         </Flex>
         <Spacer />
-        <Box>
+        <Box className="nav-sidebar" >
           <SideNav />
         </Box>
       </Flex>

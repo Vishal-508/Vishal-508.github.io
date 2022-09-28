@@ -16,3 +16,13 @@
     box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
    
 }
+
+.scroll-btn{
+   
+    text-align: center !important;
+    padding-left: 8px !important;
+}
+.scroll-btn:hover{
+    background: #FF014F;
+    color: white;
+}
