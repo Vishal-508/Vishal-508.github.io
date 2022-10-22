@@ -27,7 +27,8 @@ const Hero = () => {
 
         <a
           className="res-button" target="_blank"
-          href="https://drive.google.com/file/d/1_0iZdvcTZs28oBBcwuxHw0w3Rl3hmIQ0/view?usp=sharing"
+          href="https://drive.google.com/file/d/1YZmRvgyC2DaBox3dZPNnXUHGnSJXBLNX/view?usp=sharing"
+          // href="https://drive.google.com/file/d/1_0iZdvcTZs28oBBcwuxHw0w3Rl3hmIQ0/view?usp=sharing"
           download="Vishal resume"
           >
           Resume

@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <Flex className="contact-section">
       <Box className="sub-header">
-        <span>more</span>
-        <h2>About Me</h2>
+        <span>Get in touch</span>
+        <h2>Contact Me</h2>
       </Box>
       <Flex className="contact-details">
         <Box textAlign="left" className="contact-dis">

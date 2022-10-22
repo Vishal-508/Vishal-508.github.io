@@ -7,12 +7,14 @@ import {
   Spacer,
   List,
   ListItem,
+
 } from "@chakra-ui/react";
 import React, { useRef } from "react";
 import "../styles/navbar.css";
 import logo from "../images/logo1.png";
 import SideNav from "./SideNav";
 import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
 //  const dom=useRef("")
@@ -47,9 +49,14 @@ const Navbar = () => {
           //  display="flex" justifyContent="center" w="70%"
            className="nav-element-con" >
                 <a href="#Home"   value="#Home"  >
+                  
                   <ListItem  className="nav-element"  > HOME</ListItem>
                 </a>
-
+                
+                  {/* <NavLink to="Home" hashspy={true} spy={true} smooth={true} delay={100} >
+                  <ListItem  className="nav-element"  > HOME</ListItem>
+                  </NavLink> */}
+               
                 <a href="#About"  value={"#About"} >
                   <ListItem className="nav-element"  >ABOUT</ListItem>
                 </a>
@@ -57,6 +64,9 @@ const Navbar = () => {
                 <a href="#Skills"  value={"#Skills"} >
                   <ListItem className="nav-element" >SKILLS</ListItem>
                 </a>
+                {/* <NavLink to="Projects" hashspy={true} spy={true} smooth={true} delay={100}  >
+                  <ListItem  className="nav-element"  > PROJECTS</ListItem>
+                  </NavLink> */}
                 <a href="#Projects">
                   <ListItem className="nav-element" >PROJECTS</ListItem>
                 </a>

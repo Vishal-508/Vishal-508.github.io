@@ -28,6 +28,7 @@ const Projects = () => {
               <Box className="project-sub-des">
                 <Box>TRAVELING</Box>
                 <Box>ORBITZ.COM (CLONE)</Box>
+                <p>Orbitz is online booking platforms that make it simple to book flights, hotels and rental cars.</p>
                 <Flex className="tech-stacks">
                   <Box>JAVASCRIPT</Box>
                   <Box>HTML</Box>
@@ -50,6 +51,7 @@ const Projects = () => {
               <Box className="project-sub-des">
                 <Box>E-COMMERCE</Box>
                 <Box>BEWAKOOF.COM (CLONE)</Box>
+                <p>Bewakoof is a lifestyle fashion brand that makes creative, distinctive fashion for the trendy.</p>
                 <Flex className="tech-stacks">
                   <Box>REACT</Box>
                   <Box>JAVASCRIPT</Box>
@@ -59,7 +61,7 @@ const Projects = () => {
                   <Box>JSON-SERVER</Box>
                 </Flex>
                 <Flex className="project-card-btn">
-                  <Button><a target="_blank" href="https://github.com/Vishal-508/quizzical-trade-9516"> VIEW CODE</a></Button>
+                  <Button><a target="_blank" href="https://github.com/Vishal-508/Bewakoof.com-clone-"> VIEW CODE</a></Button>
                   <Spacer />
                   <Button><a target="_blank" href="https://jolly-dusk-117b82.netlify.app"> LIVE PROJECT</a></Button>
                 </Flex>
@@ -74,6 +76,7 @@ const Projects = () => {
               <Box className="project-sub-des">
                 <Box>ANIMAL-LOVERS</Box>
                 <Box>tINDOG.COM (CLONE)</Box>
+                <p>Want a pet, Tindog website helps makes your journey easy.</p>
                 <Flex className="tech-stacks">
                   <Box>JAVASCRIPT</Box>
                   <Box>HTML</Box>
@@ -97,12 +100,13 @@ const Projects = () => {
               <Box className="project-sub-des">
                 <Box>APPLICATION</Box>
                 <Box>DICE GAME</Box>
+                <p>This is amazing dice game just play for toss. </p>
                 <Flex className="tech-stacks">
                   <Box>JAVASCRIPT</Box>
                   <Box>HTML</Box>
 
                   <Box>CSS</Box>
-                  <Box>JqUERY</Box>
+                  
                 </Flex>
                 <Flex className="project-card-btn">
                   <Button><a target="_blank" href="https://github.com/Vishal-508/My-Portfolio-Site/tree/main/my-Projects/DICE-GAME/Dicee%20Challenge"> VIEW CODE</a></Button>
@@ -120,6 +124,7 @@ const Projects = () => {
               <Box className="project-sub-des">
                 <Box>APPLICATION</Box>
                 <Box>DRUM KIT GAME </Box>
+                <p>This is lovely drum set application, just check it out and enjoy it.</p>
                 <Flex className="tech-stacks">
                   <Box>JAVASCRIPT</Box>
                   <Box>HTML</Box>
