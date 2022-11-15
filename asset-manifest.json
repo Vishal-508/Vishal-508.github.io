@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4fa34f75.css",
-    "main.js": "/static/js/main.d3975c4f.js",
+    "main.js": "/static/js/main.15c78d6f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/hero2.png": "/static/media/hero2.001a0cd834d5c26faf45.png",
     "static/media/hero3.png": "/static/media/hero3.9fef476f3fb8f3733e42.png",
@@ -10,6 +10,7 @@
     "static/media/prj1.png": "/static/media/prj1.382c303b74e7b4a9d6fd.png",
     "static/media/prj3.png": "/static/media/prj3.d66adf478ffebe26f7de.png",
     "static/media/h555.png": "/static/media/h555.1adebe3ea163ec4208c0.png",
+    "static/media/Vishal_Sharma_Resume.pdf": "/static/media/Vishal_Sharma_Resume.caa79e89358a788e58af.pdf",
     "static/media/s3.png": "/static/media/s3.442ac65c5c7ed221c15f.png",
     "static/media/s7.png": "/static/media/s7.989043bff69c369e40e8.png",
     "static/media/prj5.png": "/static/media/prj5.1b3b4c12e1dd734f219c.png",
@@ -32,11 +33,11 @@
     "static/media/bg3.png": "/static/media/bg3.a54d3fa44e02f2f61e69.png",
     "index.html": "/index.html",
     "main.4fa34f75.css.map": "/static/css/main.4fa34f75.css.map",
-    "main.d3975c4f.js.map": "/static/js/main.d3975c4f.js.map",
+    "main.15c78d6f.js.map": "/static/js/main.15c78d6f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4fa34f75.css",
-    "static/js/main.d3975c4f.js"
+    "static/js/main.15c78d6f.js"
   ]
 }
