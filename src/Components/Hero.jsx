@@ -6,6 +6,7 @@ import hero2 from "../images/hero2.png";
 import hero3 from "../images/hero3.png";
 import hrr from "../images/h555.png";
 import hr from "../images/hn.svg";
+import Resume from "../Utils/Vishal_Sharma_Resume.pdf"
 
 import { Box, Flex, Text, Image, Grid } from "@chakra-ui/react";
 const Hero = () => {
@@ -24,15 +25,19 @@ const Hero = () => {
           a Full Stack Developer.
         </Text>
         
-
+        {/* resume here */}
         <a
           className="res-button" target="_blank"
-          href="https://drive.google.com/file/d/1YZmRvgyC2DaBox3dZPNnXUHGnSJXBLNX/view?usp=sharing"
-          // href="https://drive.google.com/file/d/1_0iZdvcTZs28oBBcwuxHw0w3Rl3hmIQ0/view?usp=sharing"
-          download="Vishal resume"
-          >
-          Resume
+          href={Resume}
+          download
+          > <button style={{fontWeight:"700"}}  onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1YZmRvgyC2DaBox3dZPNnXUHGnSJXBLNX/view?usp=sharing"
+            )
+          }>Resume</button>
+          
         </a>
+
          
       </Flex>
       <Box className="hero-img" >
@@ -50,3 +55,6 @@ export default Hero;
   <Image src={hero2} alt="Vishal" position="absolute" bottom="0" />
 </Box> */
 }
+
+
+// href="https://drive.google.com/file/d/1_0iZdvcTZs28oBBcwuxHw0w3Rl3hmIQ0/view?usp=sharing"

@@ -9,6 +9,7 @@ import {
 import React from "react";
 import "../styles/statistics.css";
 import GitCalendar from "./GitCalendar";
+import Stats from "./stats";
 
 const Statistics = () => {
   return (
@@ -65,6 +66,9 @@ const Statistics = () => {
         </Flex>
         <Center className="git-calendar">
           <GitCalendar />
+        </Center>
+        <Center mt="20px" >
+          <Stats />
         </Center>
       </Center>
     </Flex>
