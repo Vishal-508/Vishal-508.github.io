@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.4fa34f75.css",
-    "main.js": "/static/js/main.7969a837.js",
+    "main.css": "/static/css/main.9100d5e8.css",
+    "main.js": "/static/js/main.8bb4927a.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/hero2.png": "/static/media/hero2.001a0cd834d5c26faf45.png",
     "static/media/hero3.png": "/static/media/hero3.9fef476f3fb8f3733e42.png",
     "static/media/vishal-hero-image.jpg": "/static/media/vishal-hero-image.9a3089941006fe5c99c1.jpg",
-    "static/media/prj2.png": "/static/media/prj2.e85b46edf4e499c0429c.png",
+    "static/media/prj6.png": "/static/media/prj6.2d0391e17dec70419fff.png",
     "static/media/prj1.png": "/static/media/prj1.382c303b74e7b4a9d6fd.png",
-    "static/media/Vishal_Sharma_Resume.pdf": "/static/media/Vishal_Sharma_Resume.ec2c02adfb22664c86ac.pdf",
     "static/media/prj3.png": "/static/media/prj3.d66adf478ffebe26f7de.png",
     "static/media/h555.png": "/static/media/h555.1adebe3ea163ec4208c0.png",
+    "static/media/Vishal_Sharma_Resume.pdf": "/static/media/Vishal_Sharma_Resume.ffa509365afa09c81b7a.pdf",
     "static/media/s3.png": "/static/media/s3.442ac65c5c7ed221c15f.png",
     "static/media/s7.png": "/static/media/s7.989043bff69c369e40e8.png",
     "static/media/prj5.png": "/static/media/prj5.1b3b4c12e1dd734f219c.png",
-    "static/media/hn.svg": "/static/media/hn.4d72dbba32efee3890cef9bcacce7aa7.svg",
+    "static/media/hn.svg": "/static/media/hn.80d48f4797a85962149f7d56a454e535.svg",
     "static/media/s5.png": "/static/media/s5.f4047c5d88552f583b30.png",
     "static/media/h1n.png": "/static/media/h1n.0c35e5c45e16f7226324.png",
     "static/media/logo1.png": "/static/media/logo1.e87998c6d874df9eb67d.png",
@@ -32,12 +32,12 @@
     "static/media/fcsk.png": "/static/media/fcsk.5721a3928fe43de6baf8.png",
     "static/media/bg3.png": "/static/media/bg3.a54d3fa44e02f2f61e69.png",
     "index.html": "/index.html",
-    "main.4fa34f75.css.map": "/static/css/main.4fa34f75.css.map",
-    "main.7969a837.js.map": "/static/js/main.7969a837.js.map",
+    "main.9100d5e8.css.map": "/static/css/main.9100d5e8.css.map",
+    "main.8bb4927a.js.map": "/static/js/main.8bb4927a.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fa34f75.css",
-    "static/js/main.7969a837.js"
+    "static/css/main.9100d5e8.css",
+    "static/js/main.8bb4927a.js"
   ]
 }
