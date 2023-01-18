@@ -109,24 +109,24 @@ padding: 5px 0;
     flex-wrap: wrap;
     margin-bottom: 10px;
 }
-.tech-stacks>div{
-    transform: skew(-15deg);
-    padding: 8px 8px;
-    font-size: 14px;
-    margin: 8px 8px;
-    color: #F9004D;
-    border-radius: 5px;
+/* .single_stack{ */
+    /* transform: skew(-15deg); */
+    /* padding: 8px 8px; */
+    /* font-size: 14px;
+    margin: 8px 8px; */
+    /* color: #F9004D; */
+    /* border-radius: 5px;
     border: .2px solid #878E99;
-    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff); */
     /* box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff; */
-}
-.tech-stacks>div:hover{
+/* } */
+/* .single_stack:hover{
     border: .2px solid #F9004D;
     cursor: pointer;
     transition: color .3s ease-in-out;
      box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
 
-}
+} */
 .project-card-btn>button{
     padding:10px  10px;
     font-weight: 500;

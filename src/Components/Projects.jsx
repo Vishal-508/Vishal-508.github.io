@@ -80,9 +80,9 @@ const Projects = () => {
       <Flex className="project-sub-con"  w={{lg:"80%",md:"80%", sm:"95%", base:"92%"}}  >
 
         <Tabs mt="80px" w={"100%"} align={"center"} variant='unstyled'  >
-          <TabList boxShadow={"5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff"} fontWeight={"500"} color="#212428" borderRadius={"10px"} bg={"linear-gradient(145deg, #e2e8ec, #ffffff)"} >
-            <Tab w="50%" fontSize={"18px"} p="30px 10px" _selected={{ color: '#FF014F', bg: 'linear-gradient(145deg, #e2e8ec, #ffffff)', borderRadius: "10px", boxShadow: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff" }}>FULL-STACK PROJECTS</Tab>
-            <Tab w="50%" fontSize={"18px"} p="30px 10px" _selected={{ color: '#FF014F', bg: 'linear-gradient(145deg, #e2e8ec, #ffffff)', borderRadius: "10px", boxShadow: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff" }}>WEB-APPLICATIONS</Tab>
+          <TabList boxShadow={"5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff"} fontWeight={"500"} color="#212428" borderRadius={"10px"} bg={"linear-gradient(145deg, #e2e8ec, #ffffff)"} display="flex" flexDirection={{lg:"row",md:"row",sm:"row",base:"column"}} >
+            <Tab w={{lg:"50%",md:"50%",sm:"50%",base:"100%"}} fontSize={"18px"} p="30px 10px" _selected={{ color: '#FF014F', bg: 'linear-gradient(145deg, #e2e8ec, #ffffff)', borderRadius: "10px", boxShadow: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff" }}>FULL-STACK PROJECTS</Tab>
+            <Tab  w={{lg:"50%",md:"50%",sm:"50%",base:"100%"}} fontSize={"18px"} p="30px 10px" _selected={{ color: '#FF014F', bg: 'linear-gradient(145deg, #e2e8ec, #ffffff)', borderRadius: "10px", boxShadow: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff" }}>WEB-APPLICATIONS</Tab>
           </TabList>
           <TabPanels display={"flex"} flexDirection="column" >
             <TabPanel p="30px 0" >
