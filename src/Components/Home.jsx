@@ -52,10 +52,10 @@ const Home = () => {
       <section id="Statistics">
         <Statistics />
       </section>
-{/*       
+      
       <section id="Contact">
         <Contact />
-      </section> */}
+      </section>
 
       <div style={{ position: "fixed", bottom: 0 }}>
         <Footer />
