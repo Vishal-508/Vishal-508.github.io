@@ -11,7 +11,7 @@ import Resume from "../Utils/Vishal_Sharma_Resume.pdf"
 import { Box, Flex, Text, Image, Grid } from "@chakra-ui/react";
 const Hero = () => {
   return (
-    <Flex className="hero-section" >
+    <Flex className="hero-section" id="home" >
       <Grid className="main-hero-con" >     
       <Flex  className="hero-des" >
         <Text className="hero-text"
@@ -26,7 +26,7 @@ const Hero = () => {
         </Text>
         
         {/* resume here */}
-        <a
+        <a id="resume-link-2"
           className="res-button" target="_blank"
           href={Resume}
           download
@@ -40,7 +40,7 @@ const Hero = () => {
 
          
       </Flex>
-      <Box className="hero-img" >
+      <Box  className="hero-img home-img" >
         <Image src={hrr} />
       </Box>
       </Grid>

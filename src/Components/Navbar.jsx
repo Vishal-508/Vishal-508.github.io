@@ -27,10 +27,10 @@ const Navbar = () => {
   //   }
 
   return (
-    <div className="nav-section">
+    <div className="nav-section" id="nav-menu">
       <Flex flexDirection="row" color="#878787">
         <Flex justify="center" align="center" fontWeight="bold" w="80%">
-        <a href="#Home" value="#Home" style={{display:"flex", alignItems:"center"}} >
+        <a href="#home-sec" value="#Home" style={{display:"flex", alignItems:"center"}} >
           <Image src={logo} w="70px" />{" "}
           <Text fontSize="2xl" fontWeight="bold">
             <Box as="span" color="#FF014F">
@@ -61,29 +61,29 @@ const Navbar = () => {
                   <ListItem  className="nav-element"  > HOME</ListItem>
                   </NavLink> */}
 
-            <a href="#About" value={"#About"}>
+            <a href="#about-sec" className="nav-link-about" value={"#About"}>
               <ListItem className="nav-element">ABOUT</ListItem>
             </a>
 
-            <a href="#Skills" value={"#Skills"}>
+            <a href="#skills-sec" value={"#Skills"} className="nav-link-skills">
               <ListItem className="nav-element">SKILLS</ListItem>
             </a>
             {/* <NavLink to="Projects" hashspy={true} spy={true} smooth={true} delay={100}  >
                   <ListItem  className="nav-element"  > PROJECTS</ListItem>
                   </NavLink> */}
-            <a href="#Projects">
+            <a href="#projects-sec" className="nav-link-projects">
               <ListItem className="nav-element">PROJECTS</ListItem>
             </a>
-            <a href="#Statistics">
+            <a href="#statistics-sec" className="nav-link-statistics" >
               <ListItem className="nav-element">STATISTICS</ListItem>
             </a>
-            <a href="#Contact">
+            <a href="#contact-sec" className="nav-link-contact">
               <ListItem className="nav-element">CONTACT</ListItem>
             </a>
             {/* <a className="nav-element" target="_blank" href="https://drive.google.com/file/d/1YZmRvgyC2DaBox3dZPNnXUHGnSJXBLNX/view?usp=sharing" >
               RESUME
             </a> */}
-            <a href={Resume} className="nav-element" download>
+            <a href={Resume} id="resume-link-1" className="nav-element" download>
                         <button style={{fontWeight:"500"}}  onClick={() =>
                   window.open(
                     "https://drive.google.com/file/d/1YZmRvgyC2DaBox3dZPNnXUHGnSJXBLNX/view?usp=sharing"

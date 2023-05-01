@@ -18,6 +18,7 @@ const Stats = () => {
         <a href="https://github.com/vishal-508">
           <img
             align="left"
+            id="github-streak-stats"
             src="https://github-readme-streak-stats.herokuapp.com?user=Vishal-508&border_radius=25&background=FFFFFF00&fire=F9004D&ring=F9004D&hide_border=true"
           />
           {/* https://github-readme-streak-stats.herokuapp.com?user=Vishal-508&hide_border=true&background=FFFFFF00 */}
@@ -46,6 +47,7 @@ const Stats = () => {
         <a href="https://github.com/vishal-508">
           <img
             align="left"
+            id="github-stats-card"
             src="https://github-readme-stats.vercel.app/api?username=vishal-508&count_private=true&show_icons=true&border_radius=25&bg_color=145deg,e9eff3,ffffff&title_color=F9004D&icon_color=F9004D&hide_border=true" //stats
           />
         </a>

@@ -25,35 +25,35 @@ import TechSection from "./TechSection";
 const Home = () => {
   return (
 
-    <div className="home">
+    <div className="home" id="home-sec" >
       <ScrollToTop smooth height="20" width="20"  className="scroll-btn"  />
       <div style={{ position: "fixed", top: 0, zIndex: "2",width:"100%" }}>
         <Navbar/>
       
       </div>
 
-      <section id="Home">
+      <section id="hero-sec">
         <Hero />
       </section>
       
-      <section id="About">
+      <section id="about-sec">
         <About />
       </section>
      
-      <section id="Skills">
+      <section id="skills-sec">
         {" "}
         <TechSection />
       </section>
       
-      <section id="Projects">
+      <section id="projects-sec">
         <Projects />
       </section>
       
-      <section id="Statistics">
+      <section id="statistics-sec">
         <Statistics />
       </section>
       
-      <section id="Contact">
+      <section id="contact-sec">
         <Contact />
       </section>
 

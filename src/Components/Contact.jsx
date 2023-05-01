@@ -7,7 +7,7 @@ import icn3 from "../images/social33.png";
 import { Link } from "react-scroll";
 const Contact = () => {
   return (
-    <Flex className="contact-section">
+    <Flex className="contact-section" id="contact">
       <Box className="sub-header">
         <span>Get in touch</span>
         <h2>Contact Me</h2>
@@ -21,16 +21,18 @@ const Contact = () => {
           <Text fontSize="2xl" mt="30px" mb="50px" color="#878E99">
             Sethi nagar, Ujjain
           </Text>
-          <Text color="#878E99" fontSize="2xl">
+          <Text id="contact-email" color="#878E99" fontSize="2xl">
             vishalsharma331441@gmail.com
           </Text>
-          <Text color="#878E99" fontSize="2xl">
+          <Text id="contact-phone" color="#878E99" fontSize="2xl">
             +91- 9039331441
           </Text>{" "}
           <Flex className="contact-icon-con">
             <Center>
               {" "}
-              <a target="_blank" href="https://github.com/Vishal-508">
+              <a
+              id="contact-github"
+              target="_blank" href="https://github.com/Vishal-508">
                 <Image src={icn1} alt="github" />
               </a>{" "}
               
@@ -38,6 +40,7 @@ const Contact = () => {
             <Center>
               {" "}
               <a
+              id="contact-intagram"
                 target="_blank"
                 href="https://www.instagram.com/vishal_sharma1020/"
               >
@@ -47,6 +50,7 @@ const Contact = () => {
             <Center>
               {" "}
               <a
+              id="contact-linkedin"
                 target="_blank"
                 href="https://linkedin.com/in/vishal-sharma-388956218"
               >

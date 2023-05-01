@@ -6,7 +6,7 @@ import "../styles/techsection.css";
 
 const TechSection = () => {
   return (
-    <Flex className="tech-section">
+    <Flex className="tech-section" id="skills">
       <Box className="sub-header">
         <span>Playing with</span>
         <h2>Skills</h2>
@@ -17,41 +17,41 @@ const TechSection = () => {
             <h2>FRONT-END SKILLS</h2>
           </Box>
           <Flex className="stacks-container">
-            <Box className="stack-card">
-              <Flex className="stack-img" id="fg1">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img " id="fg1">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">HTML</Box>
+              <Box className="stack-card-dis skills-card-name">HTML</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="fg2">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="fg2">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">CSS</Box>
+              <Box className="stack-card-dis skills-card-name">CSS</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="fg3">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="fg3">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">REDUX</Box>
+              <Box className="stack-card-dis skills-card-name">REDUX</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="fg4">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="fg4">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">JS</Box>
+              <Box className="stack-card-dis skills-card-name">JS</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="fg5">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="fg5">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">REACT</Box>
+              <Box className="stack-card-dis skills-card-name">REACT</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="fg6">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="fg6">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">BOOTSTRAP</Box>
+              <Box className="stack-card-dis skills-card-name">BOOTSTRAP</Box>
             </Box>
           </Flex>
         </Box>
@@ -60,41 +60,41 @@ const TechSection = () => {
             <h2>BACK-END SKILLS</h2>
           </Box>
           <Flex className="stacks-container">
-            <Box className="stack-card">
-              <Flex className="stack-img" id="bg1">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="bg1">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">MONGO-DB</Box>
+              <Box className="stack-card-dis skills-card-name">MONGO-DB</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="bg2">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="bg2">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">EXPRESS-JS</Box>
+              <Box className="stack-card-dis skills-card-name">EXPRESS-JS</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="bg3">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="bg3">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">GIT</Box>
+              <Box className="stack-card-dis skills-card-name">GIT</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="bg4">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="bg4">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">NODE-JS</Box>
+              <Box className="stack-card-dis skills-card-name">NODE-JS</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="bg5">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="bg5">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">POSTMAN</Box>
+              <Box className="stack-card-dis skills-card-name">POSTMAN</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="bg6">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="bg6">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">BURP SUITE</Box>
+              <Box className="stack-card-dis skills-card-name">BURP SUITE</Box>
             </Box>
           </Flex>
         </Box>
@@ -103,41 +103,41 @@ const TechSection = () => {
             <h2>SOFT SKILLS</h2>
           </Box>
           <Flex className="stacks-container">
-            <Box className="stack-card">
-              <Flex className="stack-img" id="sg1">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="sg1">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">PROBLEM SOLVING</Box>
+              <Box className="stack-card-dis skills-card-name">PROBLEM SOLVING</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="sg2">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="sg2">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">BEING POSITIVE</Box>
+              <Box className="stack-card-dis skills-card-name">BEING POSITIVE</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="sg3">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="sg3">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">TEAM PLAYER</Box>
+              <Box className="stack-card-dis skills-card-name">TEAM PLAYER</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="sg4">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="sg4">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">GOOD LISTENER</Box>
+              <Box className="stack-card-dis skills-card-name">GOOD LISTENER</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="sg5">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="sg5">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis"> COMMUNICATION</Box>
+              <Box className="stack-card-dis skills-card-name"> COMMUNICATION</Box>
             </Box>
-            <Box className="stack-card">
-              <Flex className="stack-img" id="sg6">
+            <Box className="stack-card skills-card">
+              <Flex className="stack-img skills-card-img" id="sg6">
                 {/* <Image src="" alt="" /> */}
               </Flex>
-              <Box className="stack-card-dis">CREATIVITY SKILLS</Box>
+              <Box className="stack-card-dis skills-card-name">CREATIVITY SKILLS</Box>
             </Box>
           </Flex>
         </Box>

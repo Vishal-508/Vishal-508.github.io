@@ -64,7 +64,7 @@ const Statistics = () => {
               </Box></Box>
           </Box>
         </Flex>
-        <Center className="git-calendar">
+        <Center className="git-calendar react-activity-calendar" >
           <GitCalendar />
         </Center>
         <Center mt="20px" >

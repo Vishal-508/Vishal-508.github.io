@@ -14,7 +14,7 @@ const About = () => {
 
   const theme = extendTheme({ breakpoints });
   return (
-    <Center className="about-section">
+    <Center className="about-section" id="about">
       {/* <Box className="divider-sec" > </Box> */}
       <Box className="about-container">
         <Box className="sub-header">
