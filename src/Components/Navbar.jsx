@@ -15,7 +15,7 @@ import logo from "../images/logo1.png";
 import SideNav from "./SideNav";
 import { Link } from "react-scroll";
 import { NavLink } from "react-router-dom";
-import Resume from "../Utils/Vishal_Sharma_Resume.pdf"
+import Resume from "../Utils/Vishal-Sharma-Resume.pdf"
 const Navbar = () => {
   //  const dom=useRef("")
   // var classes=["nav-element"]
@@ -86,7 +86,7 @@ const Navbar = () => {
             <a href={Resume} id="resume-link-1" className="nav-element" download>
                         <button style={{fontWeight:"500"}}  onClick={() =>
                   window.open(
-                    "https://drive.google.com/file/d/1YZmRvgyC2DaBox3dZPNnXUHGnSJXBLNX/view?usp=sharing"
+                    "https://drive.google.com/file/d/1LPZpmiljRE-IYiT_HFfGvPwZ3JsGcynG/view?usp=sharing"
                   )
                 }>RESUME</button></a>
           </List>

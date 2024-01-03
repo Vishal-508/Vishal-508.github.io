@@ -6,7 +6,7 @@ import hero2 from "../images/hero2.png";
 import hero3 from "../images/hero3.png";
 import hrr from "../images/h555.png";
 import hr from "../images/hn.svg";
-import Resume from "../Utils/Vishal_Sharma_Resume.pdf"
+import Resume from "../Utils/Vishal-Sharma-Resume.pdf"
 
 import { Box, Flex, Text, Image, Grid } from "@chakra-ui/react";
 const Hero = () => {
@@ -32,7 +32,7 @@ const Hero = () => {
           download
           > <button style={{fontWeight:"700"}}  onClick={() =>
             window.open(
-              "https://drive.google.com/file/d/1YZmRvgyC2DaBox3dZPNnXUHGnSJXBLNX/view?usp=sharing"
+              "https://drive.google.com/file/d/1LPZpmiljRE-IYiT_HFfGvPwZ3JsGcynG/view?usp=sharing"
             )
           }>Resume</button>
           
