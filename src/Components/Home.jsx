@@ -53,9 +53,9 @@ const Home = () => {
         <Statistics />
       </section>
       
-      {/* <section id="contact-sec">
+      <section id="contact-sec">
         <Contact />
-      </section> */}
+      </section>
 
       <div style={{ position: "fixed", bottom: 0 }}>
         <Footer />

@@ -14,17 +14,17 @@ const Contact = () => {
       </Box>
       <Flex className="contact-details">
         <Box textAlign="left" className="contact-dis">
-          <Text fontSize="5xl" fontWeight="bold" color="#1E2125">
+          <Text  fontSize={{lg:"5xl",md:"5xl",sm:"3xl",base:"2xl"}} fontWeight="bold" color="#1E2125">
             {" "}
             <Box color="#ff014f">Madhya Pradesh </Box>, INDIA
           </Text>
-          <Text fontSize="2xl" mt="30px" mb="50px" color="#878E99">
+          <Text fontSize={{lg:"2xl",md:"2xl",sm:"2xl",base:"18px"}} mt="30px" mb={{lg:"50px",md:"50px",sm:"40px",base:"15px"}} color="#878E99">
             Sethi nagar, Ujjain
           </Text>
-          <Text id="contact-email" color="#878E99" fontSize="2xl">
+          <Text id="contact-email" color="#878E99" fontSize={{lg:"2xl",md:"2xl",sm:"2xl",base:"18px"}} >
             vishalsharma331441@gmail.com
           </Text>
-          <Text id="contact-phone" color="#878E99" fontSize="2xl">
+          <Text id="contact-phone" color="#878E99" fontSize={{lg:"2xl",md:"2xl",sm:"2xl",base:"18px"}} >
             +91- 9039331441
           </Text>{" "}
           <Flex className="contact-icon-con">
@@ -59,11 +59,11 @@ const Contact = () => {
             </Center>
           </Flex>
         </Box>
-        <Box className="contact-form-container">
+        <Box id="f-con" className="contact-form-container">
           <form>
             <div className="form-name-email">
             <input type="text" placeholder="Name" />
-            <div className="spacer-div" ></div>
+            {/* <div className="spacer-div" ></div> */}
             <input type="text" placeholder="Email"/>
             </div>
             <input type="text" placeholder="Subject" id="subject" />

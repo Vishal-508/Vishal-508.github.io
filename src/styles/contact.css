@@ -35,6 +35,7 @@ form input{
 .form-name-email{
     width: 100%;
     display: flex;
+    justify-content: space-between;
 
 
 }
@@ -81,8 +82,10 @@ form input{
 
 
 .contact-form-container{
-    width: 535px;
-    height: 434px;
+    width: 48%;
+    /* border: 2px solid black; */
+  
+    /* height: 434px; */
 
 }
 .contact-dis{
@@ -144,12 +147,48 @@ form button:hover{
     height: 35px;
 }
 
-@media only screen and (max-width:560px) {
+@media screen and (min-width:280px) and (max-width:460px) {
+    .form-name-email{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+    
+    
+    }
+    .form-name-email >input{
+        width: 100%;
+        margin-bottom:35px ;
+        margin-top: 0;
+    
+    }
+    form >input{
+        width: 100%;
+    }
     .contact-form-container{
+        width: 80%;
+        /* border: 2px solid black; */
+      
+        /* height: 434px; */
+    
+    }
+}
+
+@media only screen and (min-width:"461px") and (max-width:560px) {
+    .contact-form-container{
+        width: 80%;
+        
+    
+    }
+  
+    /* .contact-form-container{
         width: 335px;
         height: 434px;
     
-    }
+    } */
     form input{
         padding: 11px 14px;
         /* background: #2E2E2E; */
@@ -176,5 +215,15 @@ form button:hover{
         padding: 10px;
         width: 300px;
         height: auto;
+    }
+    
+}
+@media screen and (min-width:561px) and (max-width:919px) {
+    .contact-form-container{
+        width: 80%;
+        /* border: 2px solid black; */
+      
+        /* height: 434px; */
+    
     }
 }
