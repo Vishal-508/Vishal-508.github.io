@@ -45,17 +45,17 @@ const Home = () => {
         <TechSection />
       </section>
       
-      <section id="projects-sec">
+      {/* <section id="projects-sec">
         <Projects />
-      </section>
+      </section> */}
       
-      <section id="statistics-sec">
+      {/* <section id="statistics-sec">
         <Statistics />
-      </section>
+      </section> */}
       
-      <section id="contact-sec">
+      {/* <section id="contact-sec">
         <Contact />
-      </section>
+      </section> */}
 
       <div style={{ position: "fixed", bottom: 0 }}>
         <Footer />

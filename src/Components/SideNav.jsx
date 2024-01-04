@@ -61,29 +61,29 @@ function SideNav() {
               alignItems="space-evenly"
               w="100%"
             >
-              <a href="#Home" onClick={handleClose} className="side-items">
+              <a href="#home-sec" onClick={handleClose} className="side-items">
                 {/* w="100%" padding="20px" m="auto" textAlign="center"  */}
                 <ListItem>Home</ListItem>
               </a>
 
-              <a className="side-items" href="#About" onClick={handleClose}>
+              <a className="side-items" href="#about-sec" onClick={handleClose}>
                 <ListItem>About</ListItem>
               </a>
 
-              <a className="side-items" href="#Skills" onClick={handleClose}>
+              <a className="side-items" href="#skills-sec" onClick={handleClose}>
                 <ListItem>Skills</ListItem>
               </a>
-              <a href="#Projects" onClick={handleClose} className="side-items">
+              <a href="#projects-sec" onClick={handleClose} className="side-items">
                 <ListItem>Projects</ListItem>
               </a>
               <a
-                href="#Statistics"
+                href="#statistics-sec"
                 onClick={handleClose}
                 className="side-items"
               >
                 <ListItem>Statistics</ListItem>
               </a>
-              <a href="#Contact" onClick={handleClose} className="side-items">
+              <a href="#contact-sec" onClick={handleClose} className="side-items">
                 <ListItem>Contact</ListItem>
               </a>
             </List>

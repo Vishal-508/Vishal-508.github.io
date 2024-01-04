@@ -3,6 +3,9 @@ import React from 'react';
 import "../styles/projects.css";
 
 const ProjectCard = ({ image, project_type, name, tech_stacks, discription, code_link, live_link }) => {
+
+
+
     return (
         <Flex className="project-card" boxShadow={"5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff"} borderRadius={"10px"} wrap={{lg:"nowrap", md:"wrap", sm:"wrap",base:"wrap"}}  >
 

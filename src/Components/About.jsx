@@ -1,7 +1,8 @@
 import { Box, Center, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
 import "../styles/about.css";
-import about from "../images/hero3.png";
+// import about from "../images/hero3.png";
+import about from "../images/vishal (1).png";
 import { extendTheme } from "@chakra-ui/react";
 const About = () => {
   const breakpoints = {
@@ -23,8 +24,8 @@ const About = () => {
         </Box>
         <Box className="about-sub-container">
           <Center className="about-sub-sub">
-            <Box className="about-img-con" 
-           
+            <Box id="img-cont" className="about-img-con"
+
             // w={{ base:"350px", sm:"40%",md:"80%" }} 
             >
               <Box>
@@ -36,16 +37,17 @@ const About = () => {
                 <span></span>
               </Box>
             </Box>
-            <Box className="about-dis-con" 
-            
-            w={{ base:"260px", lg:"660px", md:"500px",sm:"450px",base:"280px"}}
-             >
+            <Box id="dis-cont" className="about-dis-con"
+
+              // w={{ base: "260px", lg: "660px", md: "500px", sm: "450px", base: "280px" }}
+            >
               <Text pb="30px" display="inline-block" >
-                Hello, I am Vishal Sharma and I am an Engineer. I'm obsessed
-                with making things and even more obsessed with making things
-                better.
+                A dedicated full-stack web developer, highly passionate about continuously
+                learning new skills and problem-solving. Possess excellent leadership qualities
+                and a team player, committed to developing scalable products that improve
+                the quality of life for individuals.
               </Text>
-              
+
               <Text display="inline-block" mb="15px" >
                 My specialty is full website strategy, design and development,
                 making pixel magic in photoshop and turning it into beautiful,
