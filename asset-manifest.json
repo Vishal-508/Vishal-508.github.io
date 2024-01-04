@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9100d5e8.css",
-    "main.js": "/static/js/main.3b7cbe20.js",
+    "main.css": "/static/css/main.abf81753.css",
+    "main.js": "/static/js/main.382307f9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/hero2.png": "/static/media/hero2.001a0cd834d5c26faf45.png",
     "static/media/hero3.png": "/static/media/hero3.9fef476f3fb8f3733e42.png",
@@ -10,7 +10,8 @@
     "static/media/prj1.png": "/static/media/prj1.382c303b74e7b4a9d6fd.png",
     "static/media/prj3.png": "/static/media/prj3.d66adf478ffebe26f7de.png",
     "static/media/h555.png": "/static/media/h555.1adebe3ea163ec4208c0.png",
-    "static/media/Vishal-Sharma-Resume.pdf": "/static/media/Vishal-Sharma-Resume.3bc7c9643b6ab211d47f.pdf",
+    "static/media/vishal (1).png": "/static/media/vishal (1).1b64e1ecf39827caa143.png",
+    "static/media/Vishal-Sharma-Resume.pdf": "/static/media/Vishal-Sharma-Resume.e4eb6f02d1b167cfd58f.pdf",
     "static/media/s3.png": "/static/media/s3.442ac65c5c7ed221c15f.png",
     "static/media/s7.png": "/static/media/s7.989043bff69c369e40e8.png",
     "static/media/prj5.png": "/static/media/prj5.1b3b4c12e1dd734f219c.png",
@@ -32,12 +33,12 @@
     "static/media/fcsk.png": "/static/media/fcsk.5721a3928fe43de6baf8.png",
     "static/media/bg3.png": "/static/media/bg3.a54d3fa44e02f2f61e69.png",
     "index.html": "/index.html",
-    "main.9100d5e8.css.map": "/static/css/main.9100d5e8.css.map",
-    "main.3b7cbe20.js.map": "/static/js/main.3b7cbe20.js.map",
+    "main.abf81753.css.map": "/static/css/main.abf81753.css.map",
+    "main.382307f9.js.map": "/static/js/main.382307f9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9100d5e8.css",
-    "static/js/main.3b7cbe20.js"
+    "static/css/main.abf81753.css",
+    "static/js/main.382307f9.js"
   ]
 }
