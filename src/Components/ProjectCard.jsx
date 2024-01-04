@@ -21,8 +21,8 @@ const ProjectCard = ({ image, project_type, name, tech_stacks, discription, code
             </Box>
             <Box className="project-sub-des" w={{lg:"50%",md:"100%",sm:"100%",base:"100%"}} >
                 <Box>{project_type}</Box>
-                <Box className='project-title' fontSize={"26px"} >{name} </Box>
-                <Box className='project-description' as="p" lineHeight={"2"} m="20px 0" fontSize="17px" textAlign={"justify"}  >{discription}</Box>
+                <Box id='project-ttl' className='project-title' fontSize={"26px"} >{name} </Box>
+                <Box id="project-dis"  className='project-description' as="p" lineHeight={"2"} m="20px 0" fontSize="17px" textAlign={"justify"}  >{discription}</Box>
                 <Flex  className="project-tech-stack tech-stacks">
                     {tech_stacks.map((item) => <Box>{item}</Box>)}
                 </Flex>

@@ -141,6 +141,9 @@ padding: 5px 0;
     transition: background-color .2s ease-in ;
     /* transition: color .2s ease-in ; */
 }
+.tab-btn{
+    width: 50%;
+}
 
 @media screen and (max-width:460px) {
     .project-card-btn{
@@ -151,5 +154,28 @@ padding: 5px 0;
     .project-card-btn>button {
         width: 100%;
         margin: 8px;
+    }
+    #tablist-con{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tab-btn{
+        width: 100%;
+    }
+    .project-tech-stack>div{
+        font-size: 10px;
+        margin: 4px;
+        padding: 4px;
+    }
+    #project-dis{
+        font-size: 12px;
+        line-height: 1.5;
+        margin: 10px 0;
+
+    }
+    #project-ttl{
+        font-size: 20px;
+        margin:0;
     }
 }
