@@ -1,6 +1,7 @@
 import { Box,Text, useColorModeValue } from '@chakra-ui/react';
 import React from 'react'
 import GitHubCalendar from 'react-github-calendar';
+import "../styles/statistics.css";
 
 const selectLastHalfYear = contributions => {
     const currentYear = new Date().getFullYear();

@@ -2,14 +2,17 @@ import { background, Box, Flex } from "@chakra-ui/react";
 import React from "react";
 import styled from "styled-components";
 import "../App.css";
+import "../styles/statistics.css";
 const Stats = () => {
   return (
     // streak
-    <Flex direction="row" flexWrap="wrap" justify="center" >
+    <Flex id="stats-con" 
+    // direction="row" flexWrap="wrap" justify="center"
+     >
 
         
     
-         <Flex align="center" borderRadius="25px" boxShadow="5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff" bg={"linear-gradient(145deg, #e2e8ec, #ffffff)"}
+         <Flex id="sub-stats-con" align="center" borderRadius="25px" boxShadow="5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff" bg={"linear-gradient(145deg, #e2e8ec, #ffffff)"}
          m="10px"
          >
       <div

@@ -98,6 +98,53 @@
     font-weight: 500;
 }
 
+@media screen and (min-width:280px) and (max-width:460px) {
+    #stats-con{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #sub-stats-con{
+        width: 100%;
+    }
+    #sub-stats-con>div{
+        width: 100%;
+        /* font-size: 8px; */
+    }
+    #github-streak-stats{
+        width: 100%;
+    }
+    .git-calendar{
+        /* border: 1px solid red; */
+        /* margin: 10px; */
+        padding: 15px 30px;
+        background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+        box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+        border-radius: 20px;
+    }
+#git-con{
+    width: 90%;
+    margin:0 ;
+    
+}
+#sts-con{
+    width: 90%;
+    margin: 15px auto;
+}
+
+.static-cards-con{
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid green; */
+    margin: 15px;
+    padding: 25px;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 20px;
+}
+
+}
 
 
 

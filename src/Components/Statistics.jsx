@@ -64,10 +64,10 @@ const Statistics = () => {
               </Box></Box>
           </Box>
         </Flex>
-        <Center className="git-calendar react-activity-calendar" >
+        <Center id="git-con"  className="git-calendar react-activity-calendar" >
           <GitCalendar />
         </Center>
-        <Center mt="20px" >
+        <Center mt="20px" id="sts-con" >
           <Stats />
         </Center>
       </Center>
